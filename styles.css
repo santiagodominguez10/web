@@ -6,6 +6,34 @@ body, h1, h2, p {
   }
   
   /* Estilos de la cabecera */
+  .navbar {
+    background: #ffcd48;
+  }
+  .navbar a {
+    color: #fff;
+    display: inline-block;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    transition: .3s ease-out all;
+  }
+  
+  .navbar a:hover {
+    background: #1D2F3D;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .contenedor {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
   header {
     background-color: rgb(243, 245, 236);
     padding: 20px;
@@ -39,4 +67,10 @@ section img {
     display: block; /* Asegura que las imágenes no tengan espacio extra debajo */
     margin-bottom: 10px; /* Espacio entre las imágenes */
   }
+  .imagen-header {
+    max-width: 100%; /* La imagen no será más ancha que su contenedor */
+    height: auto; /* Ajustar la altura automáticamente según el ancho */
+    display: block; /* Asegura que la imagen no tenga espacios en blanco alrededor */
+  }
+  
   
